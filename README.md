@@ -8,7 +8,7 @@
 { 
    "name": "mohamedreda/authorizable",
    "type": "vcs",
-   "url" : "https://github.com/MohamedReda/authorizable.git"
+   "url" : "https://github.com/M07amedReda/authorizable.git"
 },
 ```
 2- run the following command
