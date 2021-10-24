@@ -1,0 +1,26 @@
+{
+    "name": "mohamedreda/authorizable",
+    "description": "minimal Authorization package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MohamedReda\\Authorizable\\":"src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MohamedReda\\Authorizable\\":"src/",
+            "Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel":{
+            "providers":[
+                "MohamedReda\\Authorizable\\Providers\\AuthorizableServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^5.1"
+    }
+}
